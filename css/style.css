@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #EFEFEF;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    width: 350px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 8px 8px rgb(231, 231, 231);
+}
+
+.container .title {
+    color: #101036;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.container form input[type="text"], input[type="password"] {
+    border: none;
+    padding: 15px 1px;
+    margin: 2px 0px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    font-size: 15px;
+    color: red;
+}
+
+.container form input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: rgb(155, 155, 155);
+}
+
+.container form .btnLogIn{
+    border: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: #E10101;
+    border: 2px solid #E10101;
+    color: #FFFFFF;
+    border-radius: 55px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .7s all;
+
+}
+
+.container form .btnLogIn:hover{
+    border: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #E10101;
+    color: #E10101;
+    border-radius: 55px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .7s all;
+}
+
+.container form .linkForgetPassword {
+    text-decoration: none;
+    color: #3A92C5;
+    margin: 20px 0px;
+}
+
+.container form .lineOne {
+    height: 1px;
+    width: 100%;
+    background-color: rgb(207, 207, 207);
+}
+
+.container form .linkFreeAccount {
+    text-decoration: none;
+    color: #101036;
+    margin-top: 20px;
+}
+
+.container form .btnCreateAccount{
+    border: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: #101036;
+    border: 2px solid #101036;
+    color: #FFFFFF;
+    border-radius: 55px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .7s all;
+}
+
+.container form .btnCreateAccount:hover{
+    border: none;
+    padding: 10px 0px;
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border: 2px solid #101036;
+    color: #101036;
+    border-radius: 55px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .7s all;
+}
